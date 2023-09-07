@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.navbar {
+  background-color: hsl(0, 37%, 93%);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  z-index: 100;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar img {
+  max-height: 30px;
+}
+
+
+.bridge {
+  position: relative;
+}
+
+.img_bridge {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 0; /* lower z-index than the "founded" image */
+}
+
+.col-4 img {
+  width: 100%;
+  height: auto;
+  z-index: 1; /* higher z-index to be above the bridge image */
+  position: relative; /* added to ensure z-index applies */
+}
+
+.bridge {
+  position: relative;
+  padding-top: 70px;
+  width: 100%;
+  height: auto;
+}
+/**
+.img_bridge{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+**/
+.col-4 img{
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  position: relative;
+}
+
+
+
+
+/**
+.img_founder{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  top: 58px;
+  left: -15px;
+}
+**/
+
+
+
+
+
