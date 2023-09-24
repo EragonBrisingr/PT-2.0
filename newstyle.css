@@ -1,0 +1,260 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    padding: 0;
+}
+
+.navbar {
+    background-color: hsl(0, 37%, 93%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+  }
+
+  .navbar a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .navbar img {
+    max-height: 50px;
+  }
+
+  .header{
+    min-height: 100vh;
+    background-image: url("general/JPG/Hero-BG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+  }
+
+
+  .header{
+    margin-top: 50px;
+  }
+
+  .col-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+.first{
+    padding-top: 50px;
+}
+
+  .diagram {
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+}
+
+.eco{
+    width: 30%;
+    margin-bottom: 2%;
+}
+
+.diag{
+    position: relative;
+    height: auto;
+    width: 60%;
+    margin-bottom: 2%;
+}
+
+.text{
+    font-size: 50px;
+    margin-bottom: 5%;
+    color: white;
+    line-height: 1;
+    text-align: left;
+}
+
+.col-6 {
+    position: relative;
+}
+
+.half {
+    padding-top: 50px;
+    padding-right: 5%;
+    position: absolute;
+    top: 0;        
+    right: 0;
+}
+
+.half h1 {
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.half p{
+    text-align: right;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.hero-btn {
+    position: absolute;
+    right: 5%;
+    background-color: red;
+    padding: 1% 4%;
+    border-style: none;
+    color: white;
+}
+
+.icon {
+    position: relative;
+    display: flex;           /* Turn on Flexbox */
+    flex-direction: column;  /* Stack children vertically */
+    justify-content: flex-start;
+    align-items: center;     /* Center horizontally */
+    margin-top: 40px;
+    line-height: 1;
+}
+
+.icon img {
+    height: 150px;
+    margin-bottom: 2%;
+}
+
+.icon p{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.sentences{
+
+    background-color: lightgray;
+}
+
+.sentence{
+    margin-top : 2%;
+    margin-left : 3%;
+    color : darkblue;
+    font-size: 30px;
+    text-align: left;
+}
+
+.founding{
+    background-color: gray;
+}
+
+.logos {
+    
+    padding: 5px;
+    margin:2%;
+    display: flex;
+    justify-content: center;  /* Center children horizontally */
+    align-items: center;      /* Center children vertically */
+    }
+
+.logos img{
+    position: relative;
+    width: 100%;
+}
+
+.end {
+    background-color: darkblue;
+
+}
+
+.fundingturkey{
+    width: 70%;
+    margin-left: 3%;
+}
+
+.talkwith{
+    display: flex;
+    font-size: 250%;
+    margin-left: 3%;
+    color:white;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+}
+
+  .coordinates{
+    font-size: 250%;
+    margin-left: 3%;
+    color:white;
+    font-weight: 400;
+    margin-top: 3%;
+  }
+
+.socialmedia{
+    margin-top: 10%;
+    height : 10%;
+}
+
+.alj{
+    margin-left:10%;
+    margin-top : 4%;
+    width :50%;
+}
+
+.aljbutton{
+  border:none;
+  margin-left: 10%;
+  margin-top:6%;
+  color:white;
+  background-color: red;
+  text-align: center;
+  font-weight: 500;
+  width:50%;    
+  height : 10%;
+}
+
+.backtotop{
+    color : white;
+    text-align: end;
+}
+
+::placeholder{
+    color: darkblue;
+}
+
+.line{
+    background-color: white;
+    height: 5px;
+    z-index: 1;
+    color: white;
+    width: 100%;
+    margin: 1%;
+}
+
+.line2{
+    background-color: white;
+    height: 5px;
+    z-index: 1;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+

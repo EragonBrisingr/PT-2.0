@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New Landing Page</title>
+
+  <!-- Bootstrap 5.3.1 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <!-- Bootstrap 5.3.1 and Popper.js bundled together -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+  <!-- Your custom stylesheet -->
+  <link rel="stylesheet" href="newstyle.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+
+</head>
+
+<body>
+  <section class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid justify-content-center">
+            <img src="general/SVG/FundingTurkey_Sig_Hor_4C.svg" alt="">
+        </div>
+    </nav>
+
+    <div class = "container-fluid redbackground">
+      <div class = "row">
+        <div class = "col-6 first">
+          <img class="eco" src="general/PNG/PTG-Ecosystem-Header.png" alt="">
+          <div class = "diagram">
+            <img class="diag" src = "general/PNG/PTG-Ecosystem-Diagram.png">
+          </div>
+          <div class="text">
+            <p>real estate investment funds <br> managed by real estate experts</p>
+          </div>
+        </div>
+        <div class = "col-6">
+          <div class="half">
+            <h1>Partnered for growth</h1>
+            <p>Unlock the Full Potential of Turkish Real Estate, Fully <br> Licensed by the Turkish Capital Markets Board (SPK)</p>
+            <button class="hero-btn">
+              SCHEDULE FREE CONSULTATION
+            </button>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+
+
+</section>
+    <div class="container">
+      <div class="row">
+        <div class="col-4 icon">
+          <img src="general/PNG/CBI-Icon.png" alt="">
+          <p>MAXIMIZE RETURNS BY ACHIEVING 20% PER ANNUM</p>
+        </div>
+        <div class="col-4 icon">
+          <img src="general/PNG/ROI-Icon.png" alt="">
+          <p>UNDER 4 MONTHS PAIN-FREE PATH TO CITIZENSHIP</p>
+        </div>
+        <div class="col-4 icon">
+          <img src="general/PNG/Tax-Icon.png" alt="">
+          <p>BENEFIT FROM A FULL TAX SHELTER STRUCTURE</p>
+        </div>
+      </div>
+    </div>
+
+    <div class = "container-fluid sentences">
+      <div class = "row">
+          <div class = "col-6">
+              <h1 class = "sentence">/ Experience the Rewards of Being a Full-Time Landlord, Without the Hassle
+              </h1>
+              <h1 class = "sentence">/ Customized Solutions to Match Your Investment Preferences
+      
+              </h1>
+              <h1 class = "sentence">/ Diversify Your International Portfolio via Sophisticated Financial Instruments
+              </h1>
+              <h1 class = "sentence">
+                  / Minimized Costs and Optimized Strategy from Real Estate Experts
+              </h1>
+              <h1 class = "sentence">/ Secured, Easy Exit Through Our Global Sales Network
+              </h1>
+              <h1 class = "sentence">/ Halal Income and Shariah Compliant
+              </h1>
+          </div>
+          <div class = "col-6">
+              <h1 class = "sentence">/ Invest Alongside Industry Luminary Cameron Deggin / Safe Haven in a Volatile Emerging Market Environment 
+              </h1>
+              <h1 class = "sentence">/ Value and Efficiency of Full-Service, One-Stop PT EcoSystem from the Property Turkey Group
+      
+              </h1>
+              <h1 class = "sentence">/ Varied Selection of Fund Offerings & Investment Products
+      
+      
+              </h1>
+              <h1 class = "sentence">
+                  / Over 20 Years of Experience in the Turkish Real Estate Market
+              </h1>
+              <h1 class = "sentence">/ Supercharged Strength in Numbers with Valued Partners and Investors
+                  
+      
+              
+      
+              </h1>
+          </div>
+        </div>
+      </div>
+    
+      <div class = "container-fluid founding">
+        <div class = "row">
+          <div class="col logos">
+            <img src="general\PNG\Inside-Turkey-Logo-Blue.png" >
+          </div>
+          <div class="col logos">
+            <img src="general\PNG\PT-Legal-Logo-Blue.png"  >
+          </div>
+          <div class="col logos">
+            <img src="general\PNG\Designer-Turkey-Logo-Blue.png" >
+          </div>
+          <div class="col logos">
+            <img src="general\PNG\PT-Group-Logo-Blue.png" >
+          </div>
+          <div class="col logos">
+            <img src="general\PNG\Property-Turkey-Logo-Blue.png" >
+          </div>
+          <div class="col logos">
+            <img src="general\PNG\Funding-Turkey-Logo-Blue.png" >
+          </div>
+          <div class="col logos">
+            <img src="general\PNG\Property-Management-Logo-Blue.png" >
+          </div>
+        </div>
+    </div>
+    
+          <div class = "container-fluid end">
+            <div class = "row">
+                <div class ="col-6">
+                    <div class ="talkwith">
+                      TALK WITH
+                  </div>
+                  <img class = "fundingturkey" src = "general\PNG\FundingTurkey-FooterHeader.png">
+                  <div class="line"></div>
+                  <div class ="coordinates">
+                    +90 123 456 789
+                    <br>
+                    ŞIŞLI / ISTANBUL
+                      <div class = "socialmedia">
+                        <img src = "general\SVG\Instagram-Icon-Wh.svg">
+                        <img src = "general\SVG\WhatsApp-Icon-Wh.svg">
+                        <img src = "general\SVG\LinkedIn-Icon-Wh.svg">
+                      </div>
+                    </div>
+                    <div class="line2"></div>
+                  </div>
+                  <div class = "col-6">
+                      <div class ="formm">
+                        <input class = "alj" type = "text" placeholder = "NAME"/>
+                        <input class = "alj" type ="tel" placeholder = "TELEPHONE"/>
+                        <input class = "alj" type ="text" placeholder = "EMAIL"/>
+                      </div>
+                        <button class = "aljbutton">CONNECT WITH US</button>   
+                    <h1 class = "backtotop">BACK TO TOP</h1>
+                  </div>
+          </div>
+      </div>
+   </div>
+    
+
+
+</body>
+
+
+</html>
